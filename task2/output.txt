@@ -1,0 +1,46 @@
+task 1 ------>
+
+Fullname                        Point                   Company Name
+--------                        ------                  ------------
+
+KenStoltenberg                  50                      Koepp LLC
+FilibertoConnelly                       52                      Gibson - Harber
+MontanaKonopelski                       55                      Kuhic - Wyman
+WestleyEffertz                  57                      Gaylord - Miller
+JoannyOrn                       60                      Jacobs - Hermiston
+MelbaBernier                    62                      Gulgowski, Von and Jacobi
+HeleneProsacco                  63                      Harris and Sons
+FayTorphy                       65                      Corwin, Lueilwitz and Lindgren
+JeramyRaynor                    67                      Ziemann, Satterfield and Walker
+BrendaJast                      67                      Lehner, Hilpert and Cruickshank
+GreggCollins                    67                      Tremblay - Jones
+KadeWilderman                   72                      Wyman - Bradtke
+CarolZboncak                    72                      Adams - Kub
+MaritzaTorphy                   76                      Littel - Harvey
+HaylieSchinner                  77                      Miller, Roob and Prosacco
+JaysonPredovic                  77                      Cummings LLC
+TessieMraz                      77                      Lind - Hackett
+BrockJacobson                   77                      Corkery, Spencer and Bergnaum
+CatharineGutkowski                      78                      Rath, Parker and Dicki
+CotyBauch                       78                      Bode, Simonis and Botsford
+TateMurphy                      78                      Witting, Swaniawski and Boehm
+KraigJohnston                   86                      Lehner and Sons
+EffieBauch                      89                      Kuhic Inc
+EulahRodriguez                  94                      Ebert - Ritchie
+RobinTromp                      95                      Champlin - Hegmann
+EnricoHoppe                     98                      Gottlieb, Kessler and Bogisich
+PinkieTrantow                   99                      Champlin LLC
+
+task 2 ------>
+
+The number of users who got more than 20 and less than 50 point is : 17
+
+task 3 ------>
+
+Point whose email is Tristian7@yahoo.com  :  77
+User point and email whose point  77  is :--
+Point                   Email
+-----                   ------
+77                      Gabriel.Zemlak@hotmail.com
+77                      Toney58@yahoo.com
+77                      Katelin38@hotmail.com
