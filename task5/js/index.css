@@ -1,0 +1,184 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    color: green;
+}
+
+#table{
+    width: 100%;
+    padding: 10px;
+}
+
+thead {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #009879;
+}
+
+thead tr th {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: start;
+}
+
+
+table tbody tr td{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+tbody tr:hover{
+    background-color: lightgray;
+}
+
+td a{
+    text-decoration: none;
+    color: black;
+}
+
+td a:hover{
+    color: red;
+}
+.search-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search{
+    width: 50%;
+    padding: 10px;
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    outline: none;
+}
+
+.add-btn{
+    width: 200px;
+    margin: 10px;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.add-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    margin-bottom: 50px;
+}
+
+td button{
+    border: none;
+    cursor: pointer;
+}
+
+.view-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button .edit{
+    width: 150px;
+    border: none;
+
+}
+
+button .edit a{
+    text-decoration: none;
+    color: black;
+}
+
+#delete{
+    width: 150px;
+    border: none;
+    color: black;
+}
+
+.button-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+
+
+.button-container a{
+    text-decoration: none; 
+    color: black;
+}
+
+
+.button-container a:hover{
+    color: red;
+}
+
+.button-container .delete{
+    width: 150px;
+    border: none;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.button-container .button{
+    cursor: pointer;
+}
+
+.user-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15vh;
+    box-shadow: -1px 3px 26px 56px rgba(219,219,219,0.79);
+    -webkit-box-shadow: -1px 3px 26px 56px rgba(219,219,219,0.79);
+    -moz-box-shadow: -1px 3px 26px 56px rgba(219,219,219,0.79);
+}
+
+.user-container input{
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border:1px dotted gray;
+    border-radius:10px;
+}
+
+.user-container h1{
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #000;
+}
+.user-container #submit{
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.user-container #update{
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
