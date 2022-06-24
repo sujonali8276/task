@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.containers{
+    display: flex;
+}
+
+.topbar{
+    width: 100%;
+    display: none;
+    padding-left: 20px;
+    z-index: 5;
+    /* background-color: rgb(235, 215, 215); */
+}
+
+.topbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.topbar-container a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.topbar-container a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.sidebar{
+    width: 180px;
+    height: 100vh;
+    color: black;
+    padding-top: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    border-right: 1px solid gray;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 15px;
+}
+
+
+
+.sidebar-container li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.sidebar-container li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .sidebar{
+    display: none;
+   }
+
+   .topbar{
+    display: block;
+    /* background-color: rgb(250, 243, 243); */
+   }
+
+   .containers{
+    display: flex;
+    flex-direction: column;
+    }
+
+   #roots{
+    /* width: 100%;
+    display: flex; */
+    flex-direction: column;
+    /* overflow-x: hidden; */
+   }
+
+  
+  }
+
+#roots{
+    flex:9;
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+.common-container{
+    flex: 1;
+    border: none !important;
+}
+
+.common{
+    box-sizing: border-box;
+    border-radius: 10px;  
+    border: 1px solid gray;
+}
+
+.result{
+    flex: 1;
+    margin: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* common elements starts*/
+.tab-containers .tabLink{
+    cursor: pointer !important;
+}
+
+.result-container{
+    min-height: 350px;
+    border-radius: 20px;
+}
+
+.result-container h3{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.svg-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partial-circle {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+  }
+  .partial-circle:before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    border-radius: 50%;
+    bottom: 0;
+    background: #D08707;
+  }
+
+
+/* common elements ends*/
